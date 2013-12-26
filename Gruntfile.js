@@ -86,9 +86,23 @@ module.exports = function (grunt) {
             all: {
                 options: {
                     run: true,
-                    urls: ['http://localhost:<%= connect.options.port %>/index.html']
+                    urls: ['http://localhost:<%= connect.options.port %>/test/index.html']
                 }
             }
+        },
+        mochaTest: {
+          all: {
+            options:{
+              reporter: 'spec',
+              colors: false,
+              require: [
+                './test/spec_helper.coffee'
+              ]
+            },
+            src: [
+              './test/spec/{,**/}*_spec.coffee'
+            ]
+          }
         },
         coffee: {
             dist: {
@@ -97,6 +111,12 @@ module.exports = function (grunt) {
                     cwd: '<%= yeoman.app %>/scripts',
                     src: '{,*/}*.coffee',
                     dest: '.tmp/scripts',
+                    ext: '.js'
+                }, {
+                    expand: true,
+                    cwd: '<%= yeoman.app %>/lib',
+                    src: '{,**/}*.coffee',
+                    dest: '<%= yeoman.dist %>/lib/app',
                     ext: '.js'
                 }]
             },
@@ -110,6 +130,27 @@ module.exports = function (grunt) {
                 }]
             }
         },
+        haml: {
+          dist: {
+            files: [{
+              '<%= yeoman.dist %>/html/background.html': '<%= yeoman.app %>/haml/background.haml',
+              '<%= yeoman.dist %>/html/options.html': '<%= yeoman.app %>/haml/options.haml',
+              '<%= yeoman.dist %>/html/popup.html': '<%= yeoman.app %>/haml/popup.haml'
+            }]
+          }
+        },
+        bower: {
+          dist: {
+            options: {
+              targetDir: '<%= yeoman.dist %>/lib/com/',
+              layout: 'byComponent',
+              install: true,
+              verbose: true,
+              cleanTargetDir: true,
+              cleanBowerDir: false
+            }
+          }
+        },
         compass: {
             options: {
                 sassDir: '<%= yeoman.app %>/styles',
@@ -121,7 +162,8 @@ module.exports = function (grunt) {
                 importPath: '<%= yeoman.app %>/bower_components',
                 httpImagesPath: '/images',
                 httpGeneratedImagesPath: '/images/generated',
-                relativeAssets: false
+                relativeAssets: false,
+                outputStyle: "compressed"
             },
             dist: {},
             server: {
@@ -132,15 +174,15 @@ module.exports = function (grunt) {
         },
         // not used since Uglify task does concat,
         // but still available if needed
-        /*concat: {
+        concat: {
             dist: {}
-        },*/
+        },
         // not enabled since usemin task does concat and uglify
         // check index.html to edit your build targets
         // enable this task if you prefer defining your build targets here
-        /*uglify: {
+        uglify: {
             dist: {}
-        },*/
+        },
         useminPrepare: {
             options: {
                 dest: '<%= yeoman.dist %>'
@@ -180,10 +222,10 @@ module.exports = function (grunt) {
         cssmin: {
             dist: {
                 files: {
-                    '<%= yeoman.dist %>/styles/main.css': [
-                        '.tmp/styles/{,*/}*.css',
-                        '<%= yeoman.app %>/styles/{,*/}*.css'
-                    ]
+                    //'<%= yeoman.dist %>/styles/main.css': [
+                    //    '.tmp/styles/{,*/}*.css',
+                    //    '<%= yeoman.app %>/styles/{,*/}*.css'
+                    //]
                 }
             }
         },
@@ -228,6 +270,20 @@ module.exports = function (grunt) {
                     src: [
                         'generated/*'
                     ]
+                }, {
+                    expand: true,
+                    cwd: '.tmp/scripts',
+                    dest: '<%= yeoman.dist %>/scripts',
+                    src: [
+                      '{,**/}*.js'
+                    ]
+                }, {
+                    expand: true,
+                    cwd: '.tmp/styles',
+                    dest: '<%= yeoman.dist %>/styles',
+                    src: [
+                      '{,**/}*.css'
+                    ]
                 }]
             }
         },
@@ -241,6 +297,8 @@ module.exports = function (grunt) {
                 'compass'
             ],
             dist: [
+                'haml',
+                'bower',
                 'coffee',
                 'compass:dist',
                 'imagemin',
@@ -252,9 +310,7 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     buildnumber: true,
-                    background: {
-                        target:'scripts/background.js'
-                    }
+                    background: null
                 },
                 src: '<%= yeoman.app %>',
                 dest: '<%= yeoman.dist %>'
@@ -263,7 +319,7 @@ module.exports = function (grunt) {
         compress: {
             dist: {
                 options: {
-                    archive: 'package/AOJ Solved Checker.zip'
+                    archive: 'package/aoj-solved-checker.zip'
                 },
                 files: [{
                     expand: true,
@@ -279,7 +335,7 @@ module.exports = function (grunt) {
         'clean:server',
         'concurrent:test',
         'connect:test',
-        'mocha'
+        'mochaTest'
     ]);
 
     grunt.registerTask('build', [

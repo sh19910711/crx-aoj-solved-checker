@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<contest_list>
+  <contest>
+    <no>30</no>
+    <title>Virtual Arena UVA System Test 1</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1269607800000</start_date>
+    <start_date_locale>Fri Mar 26 21:50:00 JST 2010</start_date_locale>
+    <finish_date>1269694800000</finish_date>
+    <finish_date_locale>Sat Mar 27 22:00:00 JST 2010</finish_date_locale>
+    <time>24h10m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>29</no>
+    <title>U-aizu ICPCPC srm12</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1269403200000</start_date>
+    <start_date_locale>Wed Mar 24 13:00:00 JST 2010</start_date_locale>
+    <finish_date>1269414000000</finish_date>
+    <finish_date_locale>Wed Mar 24 16:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>28</no>
+    <title>Programming Seminar @ hamako-ths (3)</title>
+    <coordinator>s1140147</coordinator>
+    <start_date>1268973900000</start_date>
+    <start_date_locale>Fri Mar 19 13:45:00 JST 2010</start_date_locale>
+    <finish_date>1268982000000</finish_date>
+    <finish_date_locale>Fri Mar 19 16:00:00 JST 2010</finish_date_locale>
+    <time>2h15m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>27</no>
+    <title>test</title>
+    <coordinator>ei0833</coordinator>
+    <start_date>1268838000000</start_date>
+    <start_date_locale>Thu Mar 18 00:00:00 JST 2010</start_date_locale>
+    <finish_date>1269961200000</finish_date>
+    <finish_date_locale>Wed Mar 31 00:00:00 JST 2010</finish_date_locale>
+    <time>312h0m</time>
+    <state>Canceled</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>26</no>
+    <title>Programming Seminar @ hamako-ths (2)</title>
+    <coordinator>s1140147</coordinator>
+    <start_date>1268893800000</start_date>
+    <start_date_locale>Thu Mar 18 15:30:00 JST 2010</start_date_locale>
+    <finish_date>1268899200000</finish_date>
+    <finish_date_locale>Thu Mar 18 17:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>25</no>
+    <title>Programming Seminar @ hamako-ths</title>
+    <coordinator>s1140147</coordinator>
+    <start_date>1268715600000</start_date>
+    <start_date_locale>Tue Mar 16 14:00:00 JST 2010</start_date_locale>
+    <finish_date>1268726400000</finish_date>
+    <finish_date_locale>Tue Mar 16 17:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>24</no>
+    <title>test</title>
+    <coordinator>s1140147</coordinator>
+    <start_date>1268712000000</start_date>
+    <start_date_locale>Tue Mar 16 13:00:00 JST 2010</start_date_locale>
+    <finish_date>1268715600000</finish_date>
+    <finish_date_locale>Tue Mar 16 14:00:00 JST 2010</finish_date_locale>
+    <time>1h0m</time>
+    <state>Canceled</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>23</no>
+    <title>U-aizu ICPCPC srm11</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1268193600000</start_date>
+    <start_date_locale>Wed Mar 10 13:00:00 JST 2010</start_date_locale>
+    <finish_date>1268204400000</finish_date>
+    <finish_date_locale>Wed Mar 10 16:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>22</no>
+    <title>U-aizu ICPCPC srm10</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1267246800000</start_date>
+    <start_date_locale>Sat Feb 27 14:00:00 JST 2010</start_date_locale>
+    <finish_date>1267257600000</finish_date>
+    <finish_date_locale>Sat Feb 27 17:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>21</no>
+    <title>Virtual Arena Debugging</title>
+    <coordinator>judge</coordinator>
+    <start_date>1266816600000</start_date>
+    <start_date_locale>Mon Feb 22 14:30:00 JST 2010</start_date_locale>
+    <finish_date>1266822000000</finish_date>
+    <finish_date_locale>Mon Feb 22 16:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>20</no>
+    <title>U-aizu ICPCPC srm9</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1267070400000</start_date>
+    <start_date_locale>Thu Feb 25 13:00:00 JST 2010</start_date_locale>
+    <finish_date>1267081200000</finish_date>
+    <finish_date_locale>Thu Feb 25 16:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>19</no>
+    <title>U-aizu ICPCPC srm8</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1266897600000</start_date>
+    <start_date_locale>Tue Feb 23 13:00:00 JST 2010</start_date_locale>
+    <finish_date>1266908400000</finish_date>
+    <finish_date_locale>Tue Feb 23 16:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>18</no>
+    <title>U-aizu ICPCPC srm7</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1266379200000</start_date>
+    <start_date_locale>Wed Feb 17 13:00:00 JST 2010</start_date_locale>
+    <finish_date>1266390000000</finish_date>
+    <finish_date_locale>Wed Feb 17 16:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>17</no>
+    <title>U-aizu ICPCPC srm6</title>
+    <coordinator>s1150092</coordinator>
+    <start_date>1265873400000</start_date>
+    <start_date_locale>Thu Feb 11 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1265878800000</finish_date>
+    <finish_date_locale>Thu Feb 11 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>16</no>
+    <title>U-aizu ICPCPC srm5</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1265688600000</start_date>
+    <start_date_locale>Tue Feb 09 13:10:00 JST 2010</start_date_locale>
+    <finish_date>1265694000000</finish_date>
+    <finish_date_locale>Tue Feb 09 14:40:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>15</no>
+    <title>U-aizu ICPCPC srm4</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1264222800000</start_date>
+    <start_date_locale>Sat Jan 23 14:00:00 JST 2010</start_date_locale>
+    <finish_date>1264233600000</finish_date>
+    <finish_date_locale>Sat Jan 23 17:00:00 JST 2010</finish_date_locale>
+    <time>3h0m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>14</no>
+    <title>U-aizu ICPCPC srm3</title>
+    <coordinator>s1150092</coordinator>
+    <start_date>1264059000000</start_date>
+    <start_date_locale>Thu Jan 21 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1264064400000</finish_date>
+    <finish_date_locale>Thu Jan 21 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>13</no>
+    <title>Univ. of Aizu SCCP-026 12</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1264059000000</start_date>
+    <start_date_locale>Thu Jan 21 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1264064400000</finish_date>
+    <finish_date_locale>Thu Jan 21 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>12</no>
+    <title>U-aizu ICPCPC srm2</title>
+    <coordinator>s1150092</coordinator>
+    <start_date>1263454200000</start_date>
+    <start_date_locale>Thu Jan 14 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1263459600000</finish_date>
+    <finish_date_locale>Thu Jan 14 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>11</no>
+    <title>test-contest</title>
+    <coordinator>Hirano</coordinator>
+    <start_date>1263262800000</start_date>
+    <start_date_locale>Tue Jan 12 11:20:00 JST 2010</start_date_locale>
+    <finish_date>1263264000000</finish_date>
+    <finish_date_locale>Tue Jan 12 11:40:00 JST 2010</finish_date_locale>
+    <time>0h20m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>10</no>
+    <title>Univ. of Aizu SCCP-026 11</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1263454200000</start_date>
+    <start_date_locale>Thu Jan 14 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1263459600000</finish_date>
+    <finish_date_locale>Thu Jan 14 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>9</no>
+    <title>wakaba contest test</title>
+    <coordinator>wakaba</coordinator>
+    <start_date>1262998800000</start_date>
+    <start_date_locale>Sat Jan 09 10:00:00 JST 2010</start_date_locale>
+    <finish_date>1263006000000</finish_date>
+    <finish_date_locale>Sat Jan 09 12:00:00 JST 2010</finish_date_locale>
+    <time>2h0m</time>
+    <state>Canceled</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>8</no>
+    <title>u-aizu ICPCPC srm1</title>
+    <coordinator>s1150092</coordinator>
+    <start_date>1263024000000</start_date>
+    <start_date_locale>Sat Jan 09 17:00:00 JST 2010</start_date_locale>
+    <finish_date>1263029400000</finish_date>
+    <finish_date_locale>Sat Jan 09 18:30:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>7</no>
+    <title>Ritsumeikan University RiPPro Practice 1 (revenge)</title>
+    <coordinator>Respect2D</coordinator>
+    <start_date>1262619000000</start_date>
+    <start_date_locale>Tue Jan 05 00:30:00 JST 2010</start_date_locale>
+    <finish_date>1262620200000</finish_date>
+    <finish_date_locale>Tue Jan 05 00:50:00 JST 2010</finish_date_locale>
+    <time>0h20m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>6</no>
+    <title>Ritsumeikan University RiPPro practice 1</title>
+    <coordinator>Respect2D</coordinator>
+    <start_date>1262581200000</start_date>
+    <start_date_locale>Mon Jan 04 14:00:00 JST 2010</start_date_locale>
+    <finish_date>1262583000000</finish_date>
+    <finish_date_locale>Mon Jan 04 14:30:00 JST 2010</finish_date_locale>
+    <time>0h30m</time>
+    <state>Canceled</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>5</no>
+    <title>Test</title>
+    <coordinator>Respect2D</coordinator>
+    <start_date>1262584800000</start_date>
+    <start_date_locale>Mon Jan 04 15:00:00 JST 2010</start_date_locale>
+    <finish_date>1262588400000</finish_date>
+    <finish_date_locale>Mon Jan 04 16:00:00 JST 2010</finish_date_locale>
+    <time>1h0m</time>
+    <state>Canceled</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>4</no>
+    <title>University of Aizu ICPC Programming club practice 1(kari)</title>
+    <coordinator>s1150092</coordinator>
+    <start_date>1262508000000</start_date>
+    <start_date_locale>Sun Jan 03 17:40:00 JST 2010</start_date_locale>
+    <finish_date>1262508600000</finish_date>
+    <finish_date_locale>Sun Jan 03 17:50:00 JST 2010</finish_date_locale>
+    <time>0h10m</time>
+    <state>Canceled</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>3</no>
+    <title>Univ. of Aizu SCCP-026 10-2</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1262849400000</start_date>
+    <start_date_locale>Thu Jan 07 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1262854800000</finish_date>
+    <finish_date_locale>Thu Jan 07 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>2</no>
+    <title>Univ. of Aizu SCCP-026 10-1</title>
+    <coordinator>yutaka</coordinator>
+    <start_date>1262849400000</start_date>
+    <start_date_locale>Thu Jan 07 16:30:00 JST 2010</start_date_locale>
+    <finish_date>1262854800000</finish_date>
+    <finish_date_locale>Thu Jan 07 18:00:00 JST 2010</finish_date_locale>
+    <time>1h30m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+  <contest>
+    <no>1</no>
+    <title>Arena Test</title>
+    <coordinator>judge</coordinator>
+    <start_date>1262502600000</start_date>
+    <start_date_locale>Sun Jan 03 16:10:00 JST 2010</start_date_locale>
+    <finish_date>1262503500000</finish_date>
+    <finish_date_locale>Sun Jan 03 16:25:00 JST 2010</finish_date_locale>
+    <time>0h15m</time>
+    <state>Finished</state>
+    <rated>NO</rated>
+  </contest>
+</contest_list>

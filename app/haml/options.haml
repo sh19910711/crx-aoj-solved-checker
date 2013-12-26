@@ -1,0 +1,26 @@
+<!doctype html>
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %title Options - AOJ Solved Checker
+    %link{:rel => "stylesheet", :href => "/styles/options.css"}
+    %script{:src => "/lib/com/requirejs/js/require.js"}
+    %script{:src => "/scripts/requirejs-config.js"}
+    %script{:src => "/scripts/options.js"}
+
+  %body
+    %h1 AOJ Solved Checker Options
+    %hr
+    %h2 AOJ User ID
+    %div
+      %p
+        %label{:for => "input_aoj_user_id"} AOJのユーザーIDを入力してください
+      %p
+        %input#input_aoj_user_id.large{:type => "input", :placeholder => "AOJのユーザーIDを入力してください"}
+    %hr
+    %div
+      %button#save_option.small 設定を保存
+    %div
+      %p#info_text
+    %div#footer.pos_bottom.pos_right.text_small.pos_absolute.layer_back.width_large
+

@@ -1,0 +1,29 @@
+@import "./common";
+
+body {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+hr {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 0;
+  margin: 18px 0;
+}
+
+body {
+  margin: 100px 24px;
+}
+
+#info_text {
+  color: rgba(255, 0, 0, 0.7);
+}
+
