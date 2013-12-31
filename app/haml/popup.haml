@@ -1,0 +1,32 @@
+<!doctype html>
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %title AOJ Solved Checker
+    %link{:rel => "stylesheet", :href => "/styles/popup.css"}
+    %script{:src => "/lib/com/requirejs/js/require.js"}
+    %script{:src => "/scripts/requirejs-config.js"}
+    %script{:src => "/scripts/popup.js"}
+
+  %body
+    %div#header
+      %h1.text_large AOJ Solved Checker
+    %div#stage
+      %div.layer#init
+        %label{:for => "input_aoj_user_id"} AOJのユーザーIDを入力してください
+        %input#input_aoj_user_id{:type => "text", :placeholder => "ユーザーIDを入力"}
+        %button OK
+      %div.layer#main{"data-action-after-show" => "show-main"}
+        %p
+          Info:
+          %span#info_text
+        %ul.status-list
+      %div.layer
+        test2
+    %div#stage_controller
+      %div.layer-button.layer-back-button
+      %div.layer-button.layer-setting-button
+      %div.layer-button.layer-update-button
+    %div#footer.pos_bottom.pos_right.text_small.pos_absolute.layer_back.width_large
+
+
