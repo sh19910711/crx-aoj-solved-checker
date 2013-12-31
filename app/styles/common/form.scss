@@ -1,0 +1,28 @@
+@import "compass/css3/box-sizing";
+
+input {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  line-height: 32px;
+  font-size: 18px;
+  padding-left: 3px;
+  @include box-sizing(border-box);
+}
+
+input, button {
+  &.large {
+    width: 360px;
+  }
+  &.small {
+    width: 88px;
+  }
+}
+
+button {
+  padding: 1px;
+  margin: 0;
+  line-height: 32px;
+  box-sizing: border-box;
+  border-width: 1px;
+  @include box-sizing(border-box);
+}
